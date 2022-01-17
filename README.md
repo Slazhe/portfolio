@@ -1,2 +1,2 @@
 # portfolio
-https://rolling-scopes-school.github.io/Slazhe-JSFEPRESCHOOL/portfolio/
+https://rolling-scopes-school.github.io/slazhe-JSFEPRESCHOOL/portfolio/
