@@ -1,1 +1,70 @@
-
+body {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: bold;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    color: crimson;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-weight: 700;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    
+}
+.container > div {
+    font-size: 6vw;
+    padding: .5em;
+    color: rgb(216, 196, 196);
+    
+  }
+  .logotip {
+    background: rgb(141, 60, 38);
+    background-size: contain;
+    background-repeat: no-repeat;  
+    transition: 0.3s;
+    background-image: url(/Users/AMD/Desktop/rsschool-cv/portfolio-portfolio/assets/img/camera.jpg);    
+    }
+    .logo:hover {
+        filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+          contrast(87%);
+      }
+  .nav {
+    background:  rgb(184, 181, 180);
+    
+    
+  }
+  .lang {
+    background:  rgb(184, 181, 180);
+    
+  }
+.header{
+    border: 1px solid blue;
+    
+}
+.main {
+    border: 1px solid cadetblue;
+}
+.footer {
+border: 1px solid cornflowerblue;
+}
+.section{
+    width: 50%;
+}
+.section-title{
+    font-size: bold;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #0f527e;
+}
