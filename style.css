@@ -16,9 +16,21 @@ body {
     font-weight: 700;
 }
 header {
-    position: absolute;  
-       padding: 10px;
-    z-index: 5;
+    position: absolute;
+width: 1440px;
+height: 90px;
+left: 0px;
+top: 0px;
+}
+.header-box {
+    display: flex;
+    align-items: center;
+  
+       
+       height: 50px;
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
    
 }
 .menu {
@@ -74,10 +86,7 @@ html {
           contrast(87%);
       }
   
-  .lang {
-    background:  rgb(184, 181, 180);
-    
-  }
+ 
 
 
 .section{
@@ -100,7 +109,48 @@ html {
 }
 .navigation-item {
     padding: 0px 10px;
-    color: rgb(158, 133, 31);
+    color: rgb(248, 247, 241);
     font-size: 1.5em;
-    
+ 
+  
+}
+.navigation-item-color {
+    color: #BDAE82;
+    font-size: 1.5em;
+    padding: 0px 10px;
+}
+.main-title {
+    max-width: 500px;
+    max-height: 300px;
+    margin-left: 80px;
+    margin-top: 250px;
+    margin-bottom: 330px;
+}
+.main-title1 {
+    color: white;
+    font-family: 'Merriweather', sans-serif;
+    font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 120px;
+}
+.main-title-text {
+    font-family: 'Inter', sans-serif;
+    color: white;
+        font-size: 20px;
+line-height: 40px;
+font-weight: normal;
+font-style: normal;
+}
+.main-title-HireMe {
+    width: 220px;
+    height: 55px;
+    background-color: #BDAE82;
+    border: none;
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
 }
