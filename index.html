@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <script src="./index.js"></script>
     <link rel="stylesheet" href="style.css">
-    <link type="image/x-icon" href="/favicon. ico" rel="shortcut icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Merriweather:wght@300&family=Open+Sans:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,26 +16,45 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lato:wght@100&family=Merriweather:wght@300&family=Open+Sans:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
+    
+        
     <header class="header">
-        <div class="container">
+     <div class="header-box">
             <div class="logotip">
+               <a href>
+                <img src="./assets/img/logo.svg" alt="logo">
+            </a>
             </div>
             <div class="nav">
                 <nav >
-                    <ul>
-                      <li><a href="#">hero</a></li>
-                      <li><a href="#">skills</a></li>
-                      <li><a href="#">portfolio</a></li>
-                      <li><a href="#">video</a></li>
-                      <li><a href="#">price</a></li>
-                      <li><a href="#">contacts</a></li>
+                    <ul class="menu" >
+                      <li><a href="#hero" id="nav1" class="navigation-item"> hero</a></li>
+                      <li><a href="#skills" id="nav2" class="navigation-item"> skills</a></li>
+                      <li><a href="#portfolio" id="nav3" class="navigation-item"> portfolio</a></li>
+                      <li><a href="#video" id="nav4" class="navigation-item"> video</a></li>
+                      <li><a href="#price" id="nav5" class="navigation-item"> price</a></li>
+                      <li><a href="#contacts" id="nav6" class="navigation-item"> contacts</a></li>
+                      <li><a href="#en" id="nav7" class="navigation-item-color"> en</a></li>
+                      <li class="navigation-item"> /</li>
+                      <li><a href="#ru" id="nav8" class="navigation-item"> ru</a></li>
                     </ul>
                   </nav>
-            </div>
-            <div class="lang">3</div>
+                </div>
+           
         </div>
         <main class="main">
-            <div class="container">
+            <div class="main-title">
+                <h1 class="main-title1"> Alexa Rise</h1>
+                <p class="main-title-text">
+                    Save sincere emotions, romantic feelings and
+                    <br>
+                    happy moments of life together with professional
+                    <br>
+                    photographer Alexa Rise
+                </p>
+                <button class="main-title-HireMe" type="submit"> Hire me</button>
+                </div>
+            </main>
 <section class="section" id="hero">
     <h1 class="section-title"> Zhenya Slauto</h1>
 </section>
@@ -59,7 +79,8 @@
 
 </div>
             </footer>
-        </main>
+        </div>
+        
     </header>
     <link rel="stylesheet" href="index.js">   
 </body>
