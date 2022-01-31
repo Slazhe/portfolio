@@ -344,7 +344,7 @@ a {
 }
 .video-size {
     margin-top: 50px;
-    background-image: url(./assets/img/video-player.png);
+    background-image: url(https://raw.githubusercontent.com/Slazhe/portfolio/main/video-player.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1400px;
@@ -428,7 +428,7 @@ a {
         align-items: flex-end;
         width: 100%;
         height: 700px;
-        background-image: url(./assets/img/alex1.jpg);
+        background-image: url(https://raw.githubusercontent.com/Slazhe/portfolio/main/alex1.jpg);
         background-repeat: no-repeat;
         background-size: auto 100%;
         background-position: center;
@@ -508,7 +508,7 @@ margin: auto;
        align-items: center;
    }
 .footer-inst {
-    background-image: url(./assets/img/Vector.png);
+    background-image: url(https://raw.githubusercontent.com/Slazhe/portfolio/main/Vector.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 26px;
@@ -517,7 +517,7 @@ margin: auto;
     transition: 0.2s;
 }
 .footer-fb {
-    background-image: url(./assets/img/fb.png);
+    background-image: url(https://raw.githubusercontent.com/Slazhe/portfolio/main/fb.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 26px;
@@ -526,7 +526,7 @@ margin: auto;
     transition: 0.2s;
 }
 .footer-twitter {
-    background-image: url(./assets/img/twitter.png);
+    background-image: url(https://raw.githubusercontent.com/Slazhe/portfolio/main/twitter.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 26px;
@@ -535,7 +535,7 @@ margin: auto;
     transition: 0.2s;
 }
 .footer-pinterest {
-    background-image: url(./assets/img/pint.png);
+    background-image: url(https://raw.githubusercontent.com/Slazhe/portfolio/main/pint.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 26px;
